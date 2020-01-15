@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "DTP-info"
+version = "0.1.0"
+description = ""
+authors = ["Alexey Dubrov <vhsw@ya.ru>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+sqlalchemy = "^1.3.12"
+sqlalchemy-stubs = "^0.3"
+tqdm = "^4.41.1"
+matplotlib = "^3.1.2"
+pandas = "^0.25.3"
+geopandas = "^0.6.2"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.4.4"
+mypy = "^0.761"
+flake8 = "^3.7.9"
+black = "^19.10b0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
